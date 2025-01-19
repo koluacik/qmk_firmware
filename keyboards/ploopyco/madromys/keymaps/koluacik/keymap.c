@@ -330,9 +330,9 @@ void halt_burst(void) {
 
 /* Device setup */
 void keyboard_post_init_user(void) {
-    debug_enable   = true;
-    debug_keyboard = true;
-    debug_mouse    = true;
+    debug_enable   = false;
+    debug_keyboard = false;
+    debug_mouse    = false;
 }
 
 void pointing_device_init_user() {

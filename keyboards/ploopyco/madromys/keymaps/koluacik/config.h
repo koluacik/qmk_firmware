@@ -1,8 +1,5 @@
 #pragma once
 
-
-#define ACTION_DEBUG
-
 #define HOLD_ON_OTHER_KEY_PRESS
 
 #define COMBO_PROCESS_KEY_REPRESS
